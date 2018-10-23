@@ -21,41 +21,44 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
-brew 'php'
-brew 'imagick'
-brew 'mysql'
-brew 'node'
+# brew 'php'
+# brew 'imagick'
+# brew 'mysql'
+# brew 'node'
 
 # Apps
 cask 'aerial'
 cask 'alfred'
 cask 'caffeine'
-cask 'discord'
+# cask 'discord'
 cask 'docker'
-cask 'dropbox'
-cask 'dynamodb-local'
-cask 'eid-be'
-cask 'eid-be-viewer'
-cask 'firefox'
+# cask 'dropbox'
+# cask 'dynamodb-local'
+# cask 'eid-be'
+# cask 'eid-be-viewer'
+# cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpg-suite'
-cask 'grammarly'
-cask 'insomnia'
+# cask 'gpg-suite'
+# cask 'grammarly'
+# cask 'insomnia'
+cask 'iterm2'
 cask 'java'
-cask 'mysqlworkbench'
+cask 'lastpass'
+# cask 'mysqlworkbench'
 cask 'now'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
+# cask 'phpstorm'
+# cask 'quip'
+# cask 'sequel-pro'
+# cask 'shuttle'
 cask 'skype'
 cask 'slack'
+cask 'spotify'
 cask 'sublime-text'
-cask 'tableplus'
-cask 'tor-browser'
-cask 'tower2'
-cask 'transmit'
+# cask 'tableplus'
+# cask 'tor-browser'
+# cask 'tower2'
+# cask 'transmit'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
@@ -75,13 +78,13 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Sip', id: 507257563
-mas 'Spark', id: 1176895641
+# mas '1Password', id: 1333542190
+# mas 'Byword', id: 420212497
+# mas 'Deckset', id: 847496013
+# mas 'Giphy Capture', id: 668208984
+# mas 'Sip', id: 507257563
+# mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723 
+# mas 'Things', id: 904280696
+# mas 'Tweetbot', id: 1384080005
+mas 'WhatsApp', id: 1147396723
