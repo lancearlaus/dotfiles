@@ -91,3 +91,4 @@ mas 'The Unarchiver', id: 425424353
 # mas 'Things', id: 904280696
 # mas 'Tweetbot', id: 1384080005
 mas 'WhatsApp', id: 1147396723
+mas 'Witch', id: 412485838
