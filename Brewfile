@@ -13,6 +13,7 @@ brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'git-extras'
+brew 'git-flow'
 brew 'grep'
 brew 'mackup'
 brew 'mas'
