@@ -11,6 +11,7 @@ brew 'awscli'
 brew 'bash' # Bash 4
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'direnv'
 brew 'git'
 brew 'git-extras'
 brew 'git-flow'
