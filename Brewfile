@@ -19,7 +19,6 @@ brew 'grep'
 brew 'mackup'
 brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-# brew 'trash'
 brew 'tree'
 brew 'zsh'
 brew 'zsh-completions'
@@ -28,7 +27,8 @@ brew 'zsh-completions'
 # brew 'php'
 # brew 'imagick'
 # brew 'mysql'
-# brew 'node'
+brew 'node'
+brew 'sbt'
 cask 'intellij-idea-ce'
 
 # Apps
