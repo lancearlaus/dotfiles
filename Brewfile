@@ -17,7 +17,7 @@ brew 'git-extras'
 brew 'git-flow'
 brew 'grep'
 brew 'mackup'
-brew 'mas'
+# brew 'mas'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'tree'
 brew 'zsh'
@@ -62,13 +62,14 @@ cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
 # cask 'tableplus'
-# cask 'tor-browser'
+cask 'tor-browser'
 # cask 'tower2'
 # cask 'transmit'
 # cask 'vagrant'
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 # cask 'vlc'
+cask 'whatsapp'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -90,8 +91,8 @@ cask 'font-source-serif-pro'
 # mas 'Giphy Capture', id: 668208984
 # mas 'Sip', id: 507257563
 # mas 'Spark', id: 1176895641
-mas 'The Unarchiver', id: 425424353
+# mas 'The Unarchiver', id: 425424353
 # mas 'Things', id: 904280696
 # mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723
-mas 'Witch', id: 412485838
+# mas 'WhatsApp', id: 1147396723
+# mas 'Witch', id: 412485838
