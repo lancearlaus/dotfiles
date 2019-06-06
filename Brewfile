@@ -24,6 +24,9 @@ brew 'zsh'
 brew 'zsh-completions'
 
 # Development
+cask java
+# Note: adoptopenjdk is a pre-requisite for sbt
+cask 'adoptopenjdk'
 # brew 'php'
 # brew 'imagick'
 # brew 'mysql'
@@ -49,7 +52,6 @@ cask 'google-chrome'
 # cask 'grammarly'
 # cask 'insomnia'
 cask 'iterm2'
-cask 'java'
 # cask 'mysqlworkbench'
 # cask 'now'
 # cask 'phpstorm'
