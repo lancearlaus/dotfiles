@@ -86,6 +86,7 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
+# NOTE (as of 2019-04): The mas command-line interface to the App Store doesn't appear to work
 # Mac App Store
 # mas '1Password', id: 1333542190
 # mas 'Byword', id: 420212497

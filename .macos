@@ -77,6 +77,13 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
+echo "Trackpad: enable three-finger drag"
+# Note: Setting three finger drag disables other three finger settings when set through preference pane
+defaults write com.apple.AppleMultitouch.trackpad TrackpadThreeFingerDrag -int 1
+defaults write com.apple.AppleMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 0
+defaults write com.apple.AppleMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -int 1
+
 echo "Increase sound quality for Bluetooth headphones/headsets"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
@@ -359,6 +366,13 @@ defaults write com.apple.ical "first day of the week" 1
 
 echo "Day starts at 9AM"
 defaults write com.apple.ical "first minute of work hours" 540
+
+###############################################################################
+# Battery.                                                                    #
+###############################################################################
+
+echo "Show battery percentage"
+defaults write com.apple.menuextra.battery ShowPercent -string YES
 
 ###############################################################################
 # Date & Time                                                                 #
